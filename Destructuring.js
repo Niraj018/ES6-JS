@@ -22,6 +22,7 @@ console.log(c);
 var temperature = { yesterday: 37.5, today: 42.7, tomorrow: 39.7 };
 
 function TempToday(temp) {
+  "use strict";
   var { today: TempToday } = temp;
   return TempToday;
 }
