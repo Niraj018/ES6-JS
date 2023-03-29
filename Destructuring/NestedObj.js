@@ -8,7 +8,7 @@ function speedster(twoWheeler) {
   const {
     Kawasaki: { Mileage: mile }, //Destructuring the
   } = twoWheeler;
-  // Using destructuring twice as the object is inside araay of object
+  // Using destructuring twice as the object is inside array of object
   return mile;
 }
 console.log(speedster(bike));
