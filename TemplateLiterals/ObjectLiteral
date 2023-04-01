@@ -1,0 +1,13 @@
+const Person = (name, age, gender) => {
+  return {
+    name: name,
+    age: age,
+    gender: gender,
+  };
+};
+console.log(Person("Ramhari", 40, "Male"));
+// using arrow function previously we used to declare the object this way with three parameters but it can be done easily as
+
+const Bike = (bike, miles, capacity) => ({ bike, miles, capacity });
+
+console.log(Bike("Kawasaki", 200, 1000));
